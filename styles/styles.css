@@ -16,6 +16,7 @@
 .text-white{
     color: rgba(255, 255, 255, 0.5);
 }
+
 .all-text{
     color: white;
 }
@@ -47,6 +48,16 @@
 }
 
 /* Header */
+.heading{
+    font-size: 4.8rem;
+    margin-bottom: 1.75rem;
+}
+.hero-image{
+    margin: 2rem 13.37rem 0rem 5.4rem;
+}
+.cover{
+    margin-left: 12.43rem;
+}
 .cover-back{
     background-color: rgba(48, 48, 48, 0.54);
 }
@@ -63,8 +74,24 @@
 }
 .nav-link{
     text-decoration: none;
+    color: aliceblue;
     margin: 30px;
 }
 .nav-items{
     list-style: none;
+}
+
+/* Card styles */
+.habit-container{
+    justify-items: center;
+}
+.habit-images{
+    display: flex;
+    flex-direction: row;
+}
+.habit-images img{
+    border: 3px solid black ;
+    border-width: 2px;
+    border-radius: 50%;
+    
 }
